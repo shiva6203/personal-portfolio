@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="brand-title">Baikani Shiva</div>
+            <div class="navbar-links" id="navbar-links">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="profile">
+            <img src="./images/shiva.jpg" alt="profile">
+            <h1>BAIKANI SHIVA</h1>
+            <p>Web Developer | Designer | Programmer</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Baikani Shiva, currently studying B.Tech 2nd year in the Department of Computer Science and Engineering at NIT Durgapur.
+                As a beginner web developer, I am passionate about creating intuitive and engaging online experiences. With a foundational knowledge of HTML, CSS, and JavaScript, I am eager to build responsive websites that not only look great but also function seamlessly across devices. I thrive on tackling new challenges and continuously expanding my skills through hands-on projects and collaborative learning. My goal is to combine my creativity with technical expertise to bring innovative ideas to life in the digital space. I am excited to contribute to the ever-evolving world of web development and to grow alongside this dynamic field.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <div class="projects">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project">
+                        <h3>Project 1</h3>
+                        <p>Brief description of the project.</p>
+                        <a href="https://github.com/shiva6203/oss-demo.git" target="_blank">View Project</a>
+                    </div>
+                    <div class="project">
+                        <h3>Project 2</h3>
+                        <p>Brief description of the project.</p>
+                        <a href="https://github.com/shiva6203/oss-demo.git" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Baikani Shiva. All rights reserved.</p>
+    </footer>
+</body>
+</html>
